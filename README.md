@@ -1,13 +1,18 @@
 # Movie-Recommendation-System-using-NCF
 Introduction
+
 Problem
+
 It’s really hard to find a great movie that would suit you. You waste a lot of time trying to find it. Nowadays, there tones of movies and you just can’t decide which one to watch.
+
 Literature review:
 How to make a movie recommender: creating a recommender engine using Keras and TensorFlow. This tutorial uses ANN for a recommendation system. Trains the model using ANN and in the result outputs top k movies for particular user from the dataset.
 Movie-Recommendation-System-Using-KNN-Algorithm. This solution uses KNN and I initially planned to use it. But I couldn’t find elements of DL here. Simple ML.
 MovieLens-Hybrid-Movie-Recommendation-System. This project has an NCF model. Uses “timestamps”, rating-based and uses “user_id” to identify unique reviews. I took the idea of my project from here.
 NLP-based Movie Recommendation System it’s similar to [1] solution. Uses NLP to output top movies that’s similar to the movie we entered.
+
 Current Work(Most of the explanation are on the notebook)
+
 I’ve found a dataset on MovieLens(25M Dataset). 
 Based on the solutions and tutorials above I decided to use NCF model.
 I preprocessed the dataset
